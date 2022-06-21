@@ -1,5 +1,5 @@
 # Anotacoes_Android_Kotlin
-App Anotações utilizando NavGraph, Intent Implícita, RoomDatabase, Coroutines, Recursos de Strings e RecyclerView<br><br>
+App Anotações utilizando NavGraph, ViewBinding, Intent Implícita, RoomDatabase, Coroutines, Recursos de Strings e RecyclerView<br><br>
 
 ![image](https://user-images.githubusercontent.com/63150786/174886450-80b4340b-2e14-4d85-a0e0-0d951d35f25c.png)<br>
 ![image](https://user-images.githubusercontent.com/63150786/174886517-7a4d3928-a96a-4709-bd5e-aa9f67a42b6b.png)<br>
