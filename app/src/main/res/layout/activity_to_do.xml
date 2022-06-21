@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.ToDoActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E8E8E8"
+        tools:context=".View.MainActivity">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/notesRV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:paddingTop="60dp"
+            tools:listitem="@layout/note_recyclerview_item" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/idFAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/ic_add"
+            app:backgroundTint="#246CBA"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/btnvoltartomain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="?attr/homeAsUpIndicator"
+            android:tint="#246CBA" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/btnvoltartomain"
+            android:layout_alignBottom="@+id/btnvoltartomain"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="241dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="4dp"
+            android:layout_toEndOf="@+id/btnvoltartomain" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_gravity="start"
+        app:itemTextColor="#2184CF"
+        app:menu="@menu/navview"
+        app:headerLayout="@layout/drawer_header"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

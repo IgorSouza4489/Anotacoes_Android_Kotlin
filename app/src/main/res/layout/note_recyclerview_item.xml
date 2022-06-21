@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="#246CBA"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="0dp">
+
+        <!--text view for displaying our note text-->
+        <TextView
+            android:id="@+id/idTVNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toLeftOf="@id/idIVDelete"
+            android:padding="4dp"
+            android:text="@string/Anotacao"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <!--text view for displaying our last updated text-->
+
+        <!--imageview for displaying delete icon-->
+
+        <TextView
+            android:id="@+id/idTVds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="-8dp"
+            android:layout_marginRight="-43dp"
+            android:layout_toLeftOf="@id/idIVDelete"
+            android:background="#E8E8E8"
+            android:padding="15dp"
+            android:text="@string/descricao"
+            android:textColor="#246CBA"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/idTVDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idTVNote"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toLeftOf="@id/idIVDelete"
+            android:padding="4dp"
+            android:text="@string/atualizado"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/idIVDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:padding="3dp"
+            android:src="@drawable/ic_delete"
+            app:tint="@color/white" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

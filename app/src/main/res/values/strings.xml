@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AT1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">igor.ssouza@al.infnet.edu.br</string>
+    <string name="name">Qual o seu nome?</string>
+    <string name="titulo">HomeApp</string>
+    <string name="faleconosco">Fale Conosco</string>
+    <string name="btnentrar">Entrar</string>
+    <string name="tituloedit">Título</string>
+    <string name="btn">Button</string>
+    <string name="entreemcontato">Entre em contato </string>
+    <string name="txt">Texto</string>
+    <string name="Assunto">Assunto</string>
+    <string name="enviar">Enviar</string>
+    <string name="emailmock">Email</string>
+    <string name="sobrettl">Sobre</string>
+    <string name="sobre">Esse aplicativo têm a premissa de ter a mão algumas das principais ferramentas para melhorar o seu dia a dia, atualmente a única função deste aplicativo é a de uma lista de afazeres.</string>
+    <string name="Anotacao">Anotação</string>
+    <string name="atualizado">Atualizado em</string>
+    <string name="descricao">Descrição</string>
+    <string name="problema">Está tendo algum problema com a aplicação? Nos envie um email!</string>
+    <string name="diario">Diário</string>
+    <string name="checklist">Checklist</string>
+    <string name="sair">Sair</string>
+
+</resources>

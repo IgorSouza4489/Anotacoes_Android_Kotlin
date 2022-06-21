@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_perfil">
+        <item
+            android:id="@+id/diario"
+            android:title="@string/diario" />
+    </group>
+    <group android:id="@+id/checklist">
+        <item
+            android:id="@+id/checklist"
+            android:title="@string/checklist" />
+    </group>
+
+    <group android:id="@+id/group_sair">
+        <item
+            android:id="@+id/sair"
+            android:title="@string/sair" />
+    </group>
+
+</menu>
